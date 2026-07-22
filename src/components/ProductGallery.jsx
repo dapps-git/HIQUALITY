@@ -59,7 +59,7 @@ export default function ProductGallery() {
             alt="TUNEX Performance Exhaust Systems & Silencer Showcase"
             style={{ width: '100%', height: 'auto', display: 'block', objectFit: 'cover' }}
             onError={e => {
-              e.target.src = '/images/heroo.png';
+              e.target.src = '/images/heroo.webp';
             }}
           />
         </div>

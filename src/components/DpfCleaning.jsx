@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 import { useScrollReveal } from '../hooks/useScrollReveal';
 
 const steps = [
@@ -20,7 +20,7 @@ export default function DpfCleaning() {
           {/* Left: Image — slide from left */}
           <div className="reveal-left" ref={imgRef} style={{ borderRadius: '14px', overflow: 'hidden', boxShadow: '0 12px 40px rgba(0,0,0,0.1)' }}>
             <img
-              src="/images/dpf_service.png"
+              src="/images/dpf_service.webp"
               alt="Professional DPF cleaning service"
               style={{ width: '100%', height: '340px', objectFit: 'cover', display: 'block' }}
             />

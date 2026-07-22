@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 import { ShieldCheck, Volume2, Layers, Clock, CheckCircle2 } from 'lucide-react';
 import { useScrollReveal } from '../hooks/useScrollReveal';
 
@@ -72,7 +72,7 @@ export default function AboutSection() {
           <div className="about-right reveal-right" ref={imageRef} style={{ position: 'relative' }}>
             <div style={{ position: 'relative', borderRadius: '16px', overflow: 'hidden', boxShadow: '0 20px 50px rgba(0,0,0,0.12)' }}>
               <img
-                src="/images/about_silencer.png"
+                src="/images/about_silencer.webp"
                 alt="TUNEX premium silencer"
                 style={{ width: '100%', height: '360px', objectFit: 'cover', display: 'block' }}
               />

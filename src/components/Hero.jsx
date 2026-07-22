@@ -38,7 +38,7 @@ export default function Hero() {
           height: '100vh',
           maxHeight: '850px',
           minHeight: '520px',
-          backgroundImage: 'url("/images/bmw_hero.png")',
+          backgroundImage: 'url("/images/bmw_hero.webp")',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundAttachment: 'scroll',
