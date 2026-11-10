@@ -169,6 +169,18 @@ export default function ContactFooter() {
       <div style={{ borderTop: '1px solid rgba(255,255,255,0.07)', padding: '1.1rem 0' }}>
         <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '0.5rem' }}>
           <span style={{ fontSize: '0.75rem', color: '#666666' }}>© 2025 Hi Quality Silencers. All rights reserved.</span>
+
+        <p className="mt-2 text-xs opacity-75 text-center">
+          Powered by{" "}
+          <a
+            href="https://www.crevionads.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-medium underline hover:opacity-100 transition-opacity"
+          >
+            Crevion Ads
+          </a>
+        </p>
           <div style={{ display: 'flex', gap: '1.5rem' }}>
             <a href="#" style={{ fontSize: '0.75rem', color: '#666666', transition: 'color 0.2s' }} onMouseEnter={e => e.currentTarget.style.color = '#DC2626'} onMouseLeave={e => e.currentTarget.style.color = '#666666'}>Privacy Policy</a>
             <a href="#" style={{ fontSize: '0.75rem', color: '#666666', transition: 'color 0.2s' }} onMouseEnter={e => e.currentTarget.style.color = '#DC2626'} onMouseLeave={e => e.currentTarget.style.color = '#666666'}>Terms of Service</a>
